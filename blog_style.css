@@ -27,6 +27,7 @@ body {
 
 .page-content {
   margin: 0 var(--grid-x5);
+  width: 100%;
 }
 
 .sidebar {
@@ -62,6 +63,13 @@ body {
 .header--content {
   max-width: 1240px;
   margin: 0 auto;
+}
+
+.post {
+  width: 100%;
+  background: white;
+  padding: var(--grid-x3) var(--grid-x5);
+  margin-bottom: var(--grid-x5);
 }
 
 .header--content {
